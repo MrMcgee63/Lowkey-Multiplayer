@@ -19,7 +19,7 @@ export default (function() {
     this.lastState = {};
     this.colided = false;
     this.life = 100;
-    this.capacity = 5;
+    this.capacity = 8;
     this.alive = true;
     this.username = username;
     this.fastMode = false;
@@ -84,7 +84,7 @@ export default (function() {
         this.canFire = false;
         setTimeout(function() {
           thisPlayerShip.canFire = true;
-          thisPlayerShip.capacity = 5;
+          thisPlayerShip.capacity = 8;
         }, 1000);
       } else {
         this.canFire = false;
