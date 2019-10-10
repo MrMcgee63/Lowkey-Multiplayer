@@ -2,11 +2,11 @@ import Game from "scripts/components/Game";
 
 export default (function() {
   function Bullet(id, x, y, angle, speed) {
-    this.width = 2;
+    this.width = 4;
     this._id = id;
     this.color = "black";
-    this.height = 7;
-    this.speed = 30;
+    this.height = 14;
+    this.speed = 35;
     this.angle = angle;
     this.x = x;
     this.y = y;
